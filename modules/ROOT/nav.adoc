@@ -1,0 +1,2 @@
+.xref:index.adoc[Продуктовые изменения]
+* xref:index.adoc[]

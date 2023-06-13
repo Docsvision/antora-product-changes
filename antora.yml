@@ -1,0 +1,11 @@
+name: changes
+version: ~
+#display_version: 'dev'
+prerelease: true
+title: Продуктовые изменения
+asciidoc:
+  attributes:
+    upgrade: ''
+
+nav:
+- modules/ROOT/nav.adoc
