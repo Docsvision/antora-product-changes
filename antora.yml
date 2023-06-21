@@ -1,8 +1,8 @@
-name: attorney
+name: m4d
 version: ~
 #display_version: 'dev'
 prerelease: true
-title: Продуктовые изменения
+title: Изменения в Beta версиях
 asciidoc:
   attributes:
     upgrade: ''
