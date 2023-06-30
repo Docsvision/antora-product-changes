@@ -1,21 +1,21 @@
 = МЧД
 
-* В {wc}е добавлена возможность подписания при помощи МЧД. Инфорация описана в разделе: "xref:5.5.17_attorney@webclient:user:docs-sign.adoc#attorney[Подписание с помощью МЧД]".
+* В {wc}е добавлена возможность подписания при помощи МЧД. Информация описана в разделе: "xref:5.5.17_m4d@webclient:user:docs-sign.adoc#attorney[Подписание с помощью МЧД]".
 * Необходимость использования МЧД и алгоритм выбора зависят от двух настроек:
-** Настройка в справочнике сотрудников xref:5.5.5_attorney@backoffice:desdirs:staff/employees/main-tab.adoc#attorney[{wincl}] или xref:5.5.17_attorney@webclient:user:directories:staff:employee-fields.adoc#attorney[{wc}а] учитывается при проверке необходимости использования МЧД для сотрудника.
-** xref:5.5.5_attorney@backoffice:desdirs:card-kinds/document/sign-card.adoc#attorney[Настройка] в справочнике видов карточек определяет необходимость использования МЧД при подписании данного вида документов.
-* В журнале электронных подписей {wc}а отображается информация о МЧД.  Подробнее в разделе "xref:5.5.17_attorney@webclient:user:docs-sign.adoc#attorney-info[Информация о доверенности]".
-* Если доверенность по каким-то причинам недействительна, об этом будет сообщено при проверке доверенности. Подробнее о проверке МЧД см. в разделе "xref:5.5.17_attorney@webclient:user:docs-sign.adoc#attorney-validation[Результат проверки доверенности]".
-* Для просмотра полномочий и кодов полномочий предназначен справочник полномочий -- "xref:5.5.17_attorney@webclient:user:directories/powers/directory.adoc[]".
-* Новые элементы управления для работы с полномочиями: "xref:5.5.17_attorney@webclient:layouts:ctrl/directories/powers.adoc[Полномочия]" и "xref:5.5.17_attorney@webclient:layouts:ctrl/directories/powerDirectory.adoc[]".
-* На GitHub добавлен новый пример работы с демо-карточкой МЧД: "xref:5.5.17_attorney@webclient:programmer:other/powers-of-attorney.adoc[]".
-* Подписание с МЧД также работает при групповом подписании. Пример групповой операции подписания описан в руководстве разработчика {wc}а: xref:5.5.17_attorney@webclient:programmer:new-controls/sample-batch-sign-operation.adoc[].
-* При xref:5.5.17_attorney@webclient:user:docs-sign.adoc#export-signed[экспорте подписи] в {wc}е могут также быть экспортированы файлы МЧД:
+** Настройка в справочнике сотрудников xref:5.5.5_m4d@backoffice:desdirs:staff/employees/main-tab.adoc#attorney[{wincl}] или xref:5.5.17_m4d@webclient:user:directories/staff/employee-fields.adoc#attorney[{wc}а] учитывается при проверке необходимости использования МЧД для сотрудника.
+** xref:5.5.5_m4d@backoffice:desdirs:card-kinds/document/sign-card.adoc#attorney[Настройка] в справочнике видов карточек определяет необходимость использования МЧД при подписании данного вида документов.
+* В журнале электронных подписей {wc}а отображается информация о МЧД.  Подробнее в разделе "xref:5.5.17_m4d@webclient:user:docs-sign.adoc#attorney-info[Информация о доверенности]".
+* Если доверенность по каким-то причинам недействительна, об этом будет сообщено при проверке доверенности. Подробнее о проверке МЧД см. в разделе "xref:5.5.17_m4d@webclient:user:docs-sign.adoc#attorney-validation[Результат проверки доверенности]".
+* Для просмотра полномочий и кодов полномочий предназначен справочник полномочий -- "xref:5.5.17_m4d@webclient:user:directories/powers/directory.adoc[]".
+* Новые элементы управления для работы с полномочиями: "xref:5.5.17_m4d@webclient:layouts:ctrl/directories/powers.adoc[Полномочия]" и "xref:5.5.17_m4d@webclient:layouts:ctrl/directories/powerDirectory.adoc[]".
+* На GitHub добавлен новый пример работы с демо-карточкой МЧД: "xref:5.5.17_m4d@webclient:programmer:other/powers-of-attorney.adoc[]".
+* Подписание с МЧД также работает при групповом подписании. Пример групповой операции подписания описан в руководстве разработчика {wc}а: xref:5.5.17_m4d@webclient:programmer:new-controls/sample-batch-sign-operation.adoc[].
+* При xref:5.5.17_m4d@webclient:user:docs-sign.adoc#export-signed[экспорте подписи] в {wc}е могут также быть экспортированы файлы МЧД:
 +
 ** Файл с расширением `.xml` -- МЧД с файлом отсоединённой подписи.
 ** Файл с расширением `.xmldsig` -- МЧД и файл присоединённой подписи.
 +
-Поведение зависит от xref:5.5.4_attorney@winclient:user:card-export-print.adoc[настроек] в меню экспорта карточки {wincl}а.
+Поведение зависит от xref:5.5.4_m4d@winclient:user:card-export-print.adoc[настроек] в меню экспорта карточки {wincl}а.
 +
 * Подробная инструкция по настройке использования МЧД приведена в руководстве по настройке системы: "xref:attorney@engineer::config-attorney.adoc[]".
 * Описание API {dv} для работы с системной карточкой доверенности (СКД) приведено в руководстве разработчика {dv}: "xref:attorney@programmer:cards:attorney.adoc[]".
