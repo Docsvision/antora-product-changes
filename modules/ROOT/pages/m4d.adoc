@@ -9,7 +9,7 @@
 * Для просмотра полномочий и кодов полномочий предназначен справочник полномочий -- "xref:5.5.17@webclient:user:directories/powers/directory.adoc[]".
 * Новые элементы управления для работы с полномочиями: "xref:5.5.17@webclient:layouts:ctrl/directories/powers.adoc[Полномочия]" и "xref:5.5.17@webclient:layouts:ctrl/directories/powerDirectory.adoc[]".
 * На GitHub добавлен новый пример работы с демо-карточкой МЧД: "xref:5.5.17@webclient:programmer:other/powers-of-attorney.adoc[]".
-* Подписание с МЧД также работает при групповом подписании. Пример групповой операции подписания описан в руководстве разработчика {wc}а: xref:5.5.17@webclient:programmer:new-controls/sample-batch-sign-operation.adoc[].
+* Подписание с МЧД также работает при групповом подписании. Пример групповой операции подписания описан в руководстве разработчика {wc}а: xref:5.5.17_m4d@webclient:programmer:new-controls/.sample-batch-sign-operation.adoc[].
 * При xref:5.5.17@webclient:user:docs-sign.adoc#export-signed[экспорте подписи] в {wc}е могут также быть экспортированы файлы МЧД:
 +
 ** Файл с расширением `.xml` -- МЧД с файлом отсоединённой подписи.
