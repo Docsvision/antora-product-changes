@@ -2,8 +2,8 @@
 
 * В {wc}е добавлена возможность подписания при помощи МЧД. Информация описана в разделе: "xref:5.5.17@webclient:user:docs-sign.adoc#attorney[Подписание с помощью МЧД]".
 * Необходимость использования МЧД и алгоритм выбора зависят от двух настроек:
-** Настройка в справочнике сотрудников xref:desdirs:staff:employees/main-tab.adoc#attorney[{wincl}] или xref:5.5.17@webclient:user:directories/staff/employee-fields.adoc#attorney[{wc}а] учитывается при проверке необходимости использования МЧД для сотрудника.
-** xref:desdirs:card-kinds:document/sign-card.adoc#attorney[Настройка] в справочнике видов карточек определяет необходимость использования МЧД при подписании данного вида документов.
+** Настройка в справочнике сотрудников xref:5.5.5@backoffice:desdirs:staff/employees/main-tab.adoc#attorney[{wincl}] или xref:5.5.17@webclient:user:directories/staff/employee-fields.adoc#attorney[{wc}а] учитывается при проверке необходимости использования МЧД для сотрудника.
+** xref:5.5.5@backoffice:desdirs:card-kinds/document/sign-card.adoc#attorney[Настройка] в справочнике видов карточек определяет необходимость использования МЧД при подписании данного вида документов.
 * В журнале электронных подписей {wc}а отображается информация о МЧД.  Подробнее в разделе "xref:5.5.17@webclient:user:docs-sign.adoc#attorney-info[Информация о доверенности]".
 * Если доверенность по каким-то причинам недействительна, об этом будет сообщено при проверке доверенности. Подробнее о проверке МЧД см. в разделе "xref:5.5.17@webclient:user:docs-sign.adoc#attorney-validation[Результат проверки доверенности]".
 * Для просмотра полномочий и кодов полномочий предназначен справочник полномочий -- "xref:5.5.17@webclient:user:directories/powers/directory.adoc[]".
