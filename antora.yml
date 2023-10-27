@@ -1,6 +1,6 @@
 name: ROOT
 version: ~
-start_page: ROOT:m4d.adoc
+#start_page: ROOT:index.adoc
 #display_version: 'dev'
 prerelease: true
 title: Изменения в Beta версиях
