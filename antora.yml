@@ -1,9 +1,8 @@
-name: ROOT
+name: changes
 version: ~
 #start_page: ROOT:index.adoc
 #display_version: 'dev'
-prerelease: true
-title: Изменения в Beta версиях
+title: Список изменений
 asciidoc:
   attributes:
     upgrade: ''
