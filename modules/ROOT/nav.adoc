@@ -1,2 +1,3 @@
+.xref:index.adoc[Изменения в Beta версиях]
 * xref:index.adoc[]
 // * xref:.linux.adoc[]
